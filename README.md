@@ -155,7 +155,7 @@ npm run start
 After server is being started, hit the auth api. Now, your logs has been generated. You may see your logs in Kibana. First of all prior to viewing your logs through Kibana, you need to create an Index Pattern. Follow the below steps to create an index pattern.
 - click the Stack Management tab in the Kibana
 - goto Data Views tab
-- create Data View [image]()
+- create Data View [image](https://github.com/aahj/winston-with-elk/blob/master/kibana-step01.png)
 - give name to your *data view*
 - once you start entering the index pattern it would automatically recognize the the indexes available under the given index-name as follows: search your index pattern as *auth-logging* *
 - add a filter as timestamp and click create index pattern
